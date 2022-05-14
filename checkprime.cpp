@@ -5,7 +5,7 @@ int main() {
     int n;
     cin>>n;
     int i =2;
-    if(i>n){
+    if(i<n){
         while(n%i==0){
             cout<<"NOT PRIME"<<endl;
             break;
