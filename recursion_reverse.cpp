@@ -10,7 +10,11 @@ int reverse(int n){
 }
 int main() {
     // Write C++ code here
+    int n;
+    cout<<":Enter the number: ";
+    cin>>n;
+    cout<<"Printing in Decreasing order"<<endl;
     
-    reverse(24);
+    reverse(n);
     return 0;
 }
